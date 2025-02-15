@@ -18,5 +18,5 @@ int main()
 		whatever();
 	}
 
-	return(0);
+	return 0;
 }
