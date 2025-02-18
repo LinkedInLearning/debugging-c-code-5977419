@@ -19,10 +19,8 @@ int main()
 		{
 			while( !isalpha(*s) )
 			{
-				/* at this point, s may point beyond the end
-				   of the string. So add a test: */
-				if( *s=='\0' )
-					break;
+				if( *s=='\0' )		/* added check */
+					break;			/* exit loop */
 				s++;
 			}
 			putchar('\n');
@@ -30,7 +28,7 @@ int main()
 		else
 		{
 			putchar(*s);
-			s++;
+			s++;					/* included in else block */
 		}
 
 	}

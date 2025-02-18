@@ -10,7 +10,7 @@ int main()
 
 	/* allocate storge for both strings */
 		/* plus one for the null character */
-	both = (char *)malloc( strlen(s1) + strlen(s2) + 1 );
+	both = malloc( strlen(s1) + strlen(s2) + 1 );
 	if( both==NULL )
 	{
 		fprintf(stderr,"Unable to allocate memory\n");

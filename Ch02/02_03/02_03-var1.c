@@ -11,5 +11,5 @@ int main()
 		x++;
 	}
 
-    return(0);
+    return 0;
 }

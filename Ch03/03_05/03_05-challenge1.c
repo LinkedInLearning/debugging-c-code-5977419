@@ -22,7 +22,7 @@ int main()
 	len = strlen(original);
 
 	/* duplicate the string */
-	for( x=0; x<len+1; x++)
+	for( x=0; x<len; x++)
 	{
 		duplicate[x] = original[x];
 	}
@@ -32,5 +32,5 @@ int main()
 	/* output the duplicate */
 	printf("Duplicate: '%s'\n",duplicate);
 
-	return(0);
+	return 0;
 }
