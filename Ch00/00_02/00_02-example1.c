@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
 	printf("Snug as a bug\n");
 

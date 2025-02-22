@@ -22,7 +22,6 @@ char *filename( char *path )
 		if( p==path )
 			return(path);
 	}
-	p++;
 
 /* ensure a filename is present */
 	if( *p == '\0' )

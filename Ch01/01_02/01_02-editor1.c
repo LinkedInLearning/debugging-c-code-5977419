@@ -3,5 +3,5 @@
 int main()
 {
 	printf("Can you find the error?);
-	return(0);
+	return 0;
 }
