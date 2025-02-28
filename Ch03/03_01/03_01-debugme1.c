@@ -9,5 +9,5 @@ int main()
 		printf("%2d %2d\n",a,b);
 	}
 
-	return(0);
+	return 0;
 }

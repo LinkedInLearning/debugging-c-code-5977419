@@ -25,5 +25,5 @@ int main()
 	/* output the restuls */
 	puts(both);
 
-	return(0);
+	return 0;
 }

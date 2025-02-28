@@ -32,5 +32,5 @@ int main()
 	/* output the duplicate */
 	printf("Duplicate: '%s'\n",duplicate);
 
-	return(0);
+	return 0;
 }

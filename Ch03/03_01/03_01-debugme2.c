@@ -4,5 +4,5 @@ int main()
 {
 	puts("This is a short program");
 
-	return(0);
+	return 0;
 }
