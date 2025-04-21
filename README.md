@@ -1,34 +1,23 @@
 # Debugging C Code
 This is the repository for the LinkedIn Learning course Debugging C Code. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+![lil-thumbnail-url]
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+## Course Description
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+This course covers the process of finding out why a C program doesn't work. It addresses the issues of warnings and errors—and how to dive deep into the code to discover what's not happening the way a programmer intends. To resolve these issues, and address the bugs, several tools are available to the programmer. First are various techniques to monitor and output variables and checkpoints in the code to see what's going on and how far the program progresses normally. Second are tools such as an IDE debugger and the command line GNU debugger (GDB), which can output variable values and memory "dumps" as a program is running. These techniques and utilities provide the examination necessary to discover what's wrong and correct the code. Check out this course to learn these important parts of a programmer's tool chest.
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+### Instructor
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+Dan Gookin
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+Creator, Teacher, and Technology Writer with 20+ years of experience                 
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/dan-gookin?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/debugging-c-code-25643183
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQG8NJySi0EcCA/learning-public-crop_675_1200/B4DZYmTeaOGkAg-/0/1744399361962?e=2147483647&v=beta&t=X8GD-FAyXvNqCiGXv-qdD0Q--2h5j6_Mux0oli0TZ-M
 
